@@ -1,10 +1,13 @@
 import './preview.css';
-import React from 'react';
+import marked from 'marked';
 
-export default function Preview() {
+export default function Preview(props) {
+
     return (
-        <div>
-            <p>Preview Card</p>
+        <div id="preview" 
+            dangerouslySetInnerHTML = {{
+            __html: marked(props.content, { renderer: props.renderer })
+            }}>
         </div>
     )
 }

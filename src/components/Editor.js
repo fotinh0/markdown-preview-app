@@ -1,10 +1,8 @@
 import './editor.css';
 import React from 'react';
 
-export default function Editor() {
+export default function Editor(props) {
     return (
-        <div>
-            <p>Editor Card</p>
-        </div>
+        <textarea id="editor" value={props.content} onChange={props.handleTextChange}/>
     )
 }
