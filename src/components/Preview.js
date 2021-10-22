@@ -7,7 +7,7 @@ export default function Preview(props) {
         <div id="preview" 
             dangerouslySetInnerHTML = {{
             __html: marked(props.content, { renderer: props.renderer })
-            }}>
+            }}> 
         </div>
     )
 }

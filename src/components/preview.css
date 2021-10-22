@@ -1,0 +1,31 @@
+#preview {
+    width: 40%;
+    border-radius: 5px;
+    padding: 1%;
+    margin-bottom: 5%;
+    background-color: #E6E6E6;
+    -webkit-box-shadow: 0px 0px 0px 5px #14279B; 
+    box-shadow: 0px 0px 0px 5px #14279B;
+    font-size: 1rem;
+    min-height: 300px;
+    word-wrap: break-word;
+}
+
+img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+pre, code {
+    background-color: #ffffff;
+    white-space : pre-wrap !important;
+}
+
+
+@media (max-width: 994px){
+    #preview {
+      padding: 2%;
+      width: 70%;
+      margin: 5% 0;
+    }
+}
