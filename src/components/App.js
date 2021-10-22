@@ -73,5 +73,5 @@ Visit my [website](https://www.foticeci.com), and view additional coding project
 
 ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
 
-> Always have the curiousity to learn.
+> Always have the curiosity to learn.
 `;
